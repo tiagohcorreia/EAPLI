@@ -1,0 +1,9 @@
+2024-03-03 17:44:48.104383Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GRUPO_AUTOMOVEL" not found (this database is empty); SQL statement:
+SELECT NOME FROM grupo_automovel WHERE NOME <> NOME [42104-224]
+2024-03-03 17:44:48.134252Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AUTOMOVEL" not found; SQL statement:
+SELECT id FROM automovel WHERE id <> id [42102-224]
+2024-03-07 16:27:36.426911Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+SELECT ID FROM cliente WHERE ID <> ID [42102-224]
